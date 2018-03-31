@@ -26,6 +26,7 @@ public class GeoTask extends AsyncTask<String, Void, String> {
     ProgressDialog pd;
     Context mContext;
     Double duration;
+    
     Geo geo1;
 //constructor is used to get the context.
     public GeoTask(Context mContext) {
